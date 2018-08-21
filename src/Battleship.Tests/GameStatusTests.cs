@@ -61,7 +61,7 @@ namespace Battleship.Tests
             var attacker = new Attacker();
             attacker.Attack(board, 0, 1);
 
-            //assert that the status is now lost
+            //assert that the status is not lost
             Assert.False(board.HasLost);
         }
     }
