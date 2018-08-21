@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Implementations\AttackMessageStateHandler.cs" />
+    <Compile Remove="Implementations\BoardStateUpdater.cs" />
+    <Compile Remove="Implementations\PlayerCreator.cs" />
+    <Compile Remove="Implementations\ShipPositionGenerator.cs" />
+    <Compile Remove="Implementations\ShipStateManager.cs" />
+    <Compile Remove="Interfaces\IBoardStateUpdater.cs" />
+  </ItemGroup>
+
+</Project>
