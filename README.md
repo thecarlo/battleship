@@ -27,12 +27,14 @@ The application now consists of the following projects:
 ## Quick walkthrough of the application logic
 
 ### Entities
-I created the following entities, there are only 3 main entities :
+I created the following entities, there are only 2 main entities :
+
 * Board.cs
     * Stores the status of individual grid cells
     * Keeps track of hit count and number of cells ships occupy on the board
     * Keeps track of number of rows and column on the board
     * Keeps track of if the game is lost based on the hitcount and number of cells occupied by ships
+
 * Ship.cs
     * AircraftCarrier.cs (inherits from ship)
     * Destroyer.cs (inherits from ship)
@@ -42,10 +44,13 @@ There are only a few methods. Each interface and implementation only adheres to 
 
     * IBoardCreator.cs
         * CreateBoard (creates and returns a board)
+
     * IShipCreator.cs
         * CreateShip (creates and returns a ship)
+
     * IShipPlacer.cs
         * AddShipToBoard (Places a ship at a given position on the board)
+        
     * IAttacker.cs
         * Attack (launches an attack at a given position)
 
