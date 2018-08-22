@@ -1,6 +1,4 @@
-# Battleship for Flare HR by Carlo van Wyk
-
-Thank you for giving me the opportunity to showcase some of my skills. I've listed some information with regards to getting up and running below.
+# Battleship
 
 ## Development approach and scope
 I've incorporated your feedback and simplified the application. I took a TDD development approach by writing the unit tests for the accetance tests first, and then only wrote the necessary logic to make these tests pass.
