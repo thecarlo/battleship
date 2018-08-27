@@ -1,9 +1,7 @@
 # Battleship
 
-## Development approach and scope
-I've incorporated your feedback and simplified the application. I took a TDD development approach by writing the unit tests for the accetance tests first, and then only wrote the necessary logic to make these tests pass.
-
-The acceptance criteria I used are as per the PDF document provided:
+## Functionality
+The functionality includes:
 
 * Create a board
 * Add a battleship to the board
@@ -15,7 +13,7 @@ No UI was developed. The unit tests verify all the functionality.
 
 ## Quick Walkthrough of the Application Structure
 
-The application now consists of the following projects:
+The application consists of the following projects:
 1) Battleship.Core project
     * This project houses the logic, interfaces and entities
 
@@ -25,7 +23,7 @@ The application now consists of the following projects:
 ## Quick walkthrough of the application logic
 
 ### Entities
-I created the following entities, there are only 2 main entities :
+There are only 2 main entities :
 
 * Board.cs
     * Stores the status of individual grid cells
