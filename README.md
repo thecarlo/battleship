@@ -1,4 +1,5 @@
 # Battleship
+Based on the game Battleship. Game rules and explanation at http://www.mathematicshed.com/uploads/1/2/5/7/12572836/battleships.pdf
 
 ## Functionality
 The functionality includes:
