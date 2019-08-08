@@ -97,7 +97,7 @@ The application was written in .NET Core 2.1.400, so please ensure you have .NET
 * Open the command prompt
 * Ensure you have git installed
 * Run the following git clone command to clone the repo onto your local computer : ```git clone git@github.com:thecarlo/battleship.git```
-* Change into the directory, and change into the ```src\Battleship.Tests``` directory. (On my computer the full location is ```D:\projects\flare-battleship\src\Battleship.Tests```)
+* Change into the directory, and change into the ```src\Battleship.Tests``` directory. (On my computer the full location is ```D:\projects\battleship\src\Battleship.Tests```)
 * Type ```dotnet restore``` in the command prompt
 * Type ```dotnet build``` in the command prompt
 * Type ```dotnet test``` to run the unit tests.
